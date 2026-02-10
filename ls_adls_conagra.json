@@ -1,0 +1,11 @@
+{
+    "name": "ls_adls_conagra",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobFS",
+        "typeProperties": {
+            "url": "https://stconagralake001.dfs.core.windows.net/"
+        }
+    }
+}

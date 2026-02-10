@@ -1,0 +1,30 @@
+{
+    "name": "ds_parquet_pos_curated",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adls_conagra",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "p_year": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": {
+                    "value": "year=@{dataset().p_year}",
+                    "type": "Expression"
+                },
+                "folderPath": "poultry_pos_enriched",
+                "fileSystem": "curated"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

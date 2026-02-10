@@ -1,0 +1,41 @@
+{
+    "name": "ds_csv_pos_bronze",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adls_conagra",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "p_folder_path": {
+                "type": "string",
+                "defaultValue": "poultry-pos-csv"
+            },
+            "p_file_name": {
+                "type": "string",
+                "defaultValue": "year=2020"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": {
+                    "value": "@dataset().p_file_name",
+                    "type": "Expression"
+                },
+                "folderPath": {
+                    "value": "@dataset().p_folder_path",
+                    "type": "Expression"
+                },
+                "fileSystem": "bronze"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
