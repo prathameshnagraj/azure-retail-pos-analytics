@@ -904,19 +904,19 @@ Shows production awareness, architectural planning, and continuous learning mind
 ## 📸 Screenshots
 
 ### **Azure Data Factory: Ingestion Pipeline**
-![Ingestion Pipeline](07-screenshots/adf-pipeline-success.png)
+![Ingestion Pipeline](https://github.com/prathameshnagraj/azure-retail-pos-analytics/blob/main/Screenshot%202026-02-10%20082419.png)
 *ForEach loop processing years 2020-2024 in parallel*
 
 ---
 
 ### **Azure Data Factory: Transformation Pipeline**
-![Transformation Pipeline](07-screenshots/foreach-loop-config.png)
+![Transformation Pipeline](https://github.com/prathameshnagraj/azure-retail-pos-analytics/blob/main/Screenshot%202026-02-10%20082452.png)
 *Pipeline orchestrating Mapping Data Flow with year parameters*
 
 ---
 
 ### **Mapping Data Flow Canvas**
-![Data Flow Canvas](07-screenshots/mapping-dataflow-canvas.png)
+![Data Flow Canvas](https://github.com/prathameshnagraj/azure-retail-pos-analytics/blob/main/Screenshot%202026-02-10%20082558.png)
 *Visual transformation logic: UPC normalization, date parsing, product join*
 
 ---
