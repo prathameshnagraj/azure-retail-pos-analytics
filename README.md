@@ -810,13 +810,6 @@ az storage blob upload \
 
 ---
 
-### **📘 Detailed Setup Guide**
-
-For complete deployment instructions, see:
-- [05-documentation/setup-guide.md](05-documentation/setup-guide.md)
-- [06-deployment/prerequisites.md](06-deployment/prerequisites.md)
-
----
 
 ## 🚀 Future Enhancements (Roadmap)
 
@@ -925,18 +918,6 @@ Shows production awareness, architectural planning, and continuous learning mind
 ### **Mapping Data Flow Canvas**
 ![Data Flow Canvas](07-screenshots/mapping-dataflow-canvas.png)
 *Visual transformation logic: UPC normalization, date parsing, product join*
-
----
-
-### **ADLS Gen2: Bronze Layer Structure**
-![ADLS Structure](07-screenshots/adls-folder-structure.png)
-*Year-partitioned folder organization (year=2020/, year=2021/, etc.)*
-
----
-
-### **Curated Layer: Parquet Output**
-![Parquet Output](07-screenshots/curated-parquet-output.png)
-*Final analytics-ready dataset in compressed Parquet format*
 
 ---
 
