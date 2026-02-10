@@ -2,7 +2,7 @@
 
 # 🐔 Conagra Poultry POS Analytics Platform
 
-> End-to-end Azure data engineering solution processing retail Point-of-Sale data with medallion 
+> End-to-end Azure data engineering solution processing retail Point-of-Sale data with Medallion 
 > architecture (Raw → Bronze → Silver/Curated)
 
 [![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
@@ -27,7 +27,6 @@
 - [Key Features](#-key-features)
 - [Challenges & Solutions](#-challenges--solutions)
 - [Outcomes & Learnings](#-outcomes--learnings)
-- [Repository Structure](#-repository-structure)
 - [Setup Guide](#-setup-guide)
 - [Future Enhancements](#-future-enhancements)
 - [Screenshots](#-screenshots)
